@@ -1,0 +1,109 @@
+
+.intro_graphic{
+  width:100%;
+  z-index:-19;
+}
+.intro_container{
+  width:100%;
+  top:0%;
+  left:0%;
+  position: absolute;
+}
+.intro_text{
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  z-index:999;
+  position: absolute;
+  font-family: "Archivo Black";
+  top:17.5%;
+  width:100%;
+  left:0%;
+  animation: ease-down .5s ease-in 1;
+}
+
+.sauce_container{
+  position: absolute;
+  top:30%;
+  width:100%;
+  left:0%;
+}
+.sauce_graphic{
+  width:70%;
+  position: absolute;
+  float: left;
+  left:0%;
+
+
+}
+.animation-sauce-1{
+
+  z-index:3;
+
+}
+.animation-sauce-2{
+  position: absolute;
+  left:15%;
+  z-index:5;
+  animation: animationS2 .5s ease-in 1;
+}
+.animation-sauce-3{
+  position: absolute;
+  left:30%;
+  z-index:2;
+  animation: animationS3 1s ease-in 1;
+}
+@keyframes animationS2 {
+  0%{
+    left:0%;
+      opacity:0
+  }
+  50%{
+      opacity:0
+  }
+  100%{
+    left:15%;
+      opacity:1
+  }
+}
+@keyframes animationS1 {
+  0%{
+
+      opacity:0
+  }
+  50%{
+      opacity:0
+  }
+  100%{
+
+      opacity:1
+  }
+}
+@keyframes animationS3 {
+  0%{
+    left:0%;
+    opacity:0
+  }
+  50{
+    opacity:0
+  }
+  70%{
+    left:0%;
+  }
+  100%{
+    left:30%;
+    opacity:1;
+  }
+}
+@keyframes ease-down {
+  0%{
+    opacity:0;
+    top:15%;
+  }
+  50%{
+    opacity:.5
+  }
+  100%{
+    top:17.5%;
+  }
+}

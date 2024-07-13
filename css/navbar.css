@@ -1,0 +1,8 @@
+.header--bottom-row{
+  bottom:80px;
+}
+.featured-content--root{
+  z-index:9999;
+  position:relative;
+  bottom:60px;
+}

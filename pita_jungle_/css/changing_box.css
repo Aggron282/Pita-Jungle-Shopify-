@@ -1,0 +1,70 @@
+.changing_box_image{
+  width:100%;
+}
+.changing_box_container{
+  padding:5%;
+  position:relative;
+}
+.changing_box_text_container{
+  margin-top:5%;
+  position:relative;
+  right:5rem;
+  background:#e6e6e6;
+  color:#1a9168;
+  display:inline;
+  padding:1%;
+  color:#1a9168;
+  height:50%;
+}
+
+
+.changing_box_text_title{
+  font-size:3rem;
+  font-family:"Merienda One";
+}
+
+.changing_box_text_detail{
+  font-size:1.5rem;
+  font-family:"Montserrat";
+}
+
+.changing_box_graphic{
+    position:absolute;
+    top:20%;
+    right:0%;
+}
+
+@media screen and (max-width:844px){
+  .changing_image_col{
+    width:100%;
+    max-width:100%;
+    flex:100%;
+  }
+
+  .changing_box_text_title{
+    padding:0 2%;
+
+  }
+  .changing_box_text_detail{
+    font-size:1.3rem;
+    padding:0 2%;
+
+  }
+
+
+  .changing_text_col{
+    position:absolute;
+    top:50%;
+    right:0%;
+    height:100%;
+    margin-left:30%;
+    width:70%;
+    max-width:70%;
+    flex:70%;
+  }
+
+  .changing_box_graphic{
+      top:20%;
+      transform: rotateY(180deg);
+  }
+}

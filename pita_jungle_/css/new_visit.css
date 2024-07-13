@@ -1,0 +1,89 @@
+.visit_container{
+  height:100vh;
+  width:100%;
+  position:relative;
+  margin-top:5%;
+  padding:5%;
+  background-image:url("https://cdn.shopify.com/s/files/1/0300/2577/7251/files/Untitled_design_76.png?v=1691049699");
+  background-size:cover;
+}
+
+.dark-overlay{
+  background:black;
+  opacity:.7;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.visit_text{
+  position:relative;
+  z-index:10;
+  color:white;
+  font-family:"Teko";
+}
+.visit_text--title{
+  font-size:7rem;
+}
+.visit_text--detail{
+  font-size:3rem;
+}
+.visit_button{
+  z-index:9;
+  position:relative;
+  border:1px solid white;
+  background:transparent;
+  width:30%;
+  padding:1%;
+  font-family:"Teko";
+  font-size:3rem;
+  margin:0 auto;
+  color:white;
+  transition:all .5s;
+
+}
+
+.visit_button:hover{
+  background:white;
+  color:black;
+  transition:all .5s;
+  transform:translateY(-10px) scale(1.1);
+}
+
+
+.visit_detail{
+  font-size:2.5rem;
+
+}
+
+
+@media screen and (max-width:844px){
+  .visit_container{
+    margin-top:12.5%;
+  }
+  .visit_text{
+    margin-top:10%;
+    text-align: center;
+  }
+  .visit_text--title{
+    font-size:5rem;
+  }
+  .visit_text--detail{
+    font-size:2.5rem;
+    margin-top:5%;
+  }
+  .visit_button_container{
+    margin-top:60%;
+  }
+  .visit_button{
+    width:50%;
+    margin-left:25%;
+    font-size:30px;
+
+  }
+
+
+
+}

@@ -1,0 +1,38 @@
+.main_site_image{
+  width:100%;
+
+}
+
+.art_row{
+  position:relative;right:10px !important;
+  width:110%;
+  padding:0;
+  margin:0
+}
+.main_site_button{
+  background:green;color:white;border-radius:40px;width:100%;
+}
+.button_row{
+  position: absolute;
+  top:-11%;
+  width:100%;
+}
+.empty_button{
+  padding:0;
+  width:100%;
+  margin:0;
+  border:none !important;
+  outline:none !important;
+  background:none;
+  height:300px
+
+}
+
+
+.art_button{
+  width:100%;
+  height:300px;
+}
+.empty_button:hover .art_button {
+  filter:invert(380);
+}

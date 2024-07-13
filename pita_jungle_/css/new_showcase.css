@@ -1,0 +1,239 @@
+
+    html{
+      font-size:12px;
+      font-family:"Teko";
+      overflow-x:hidden;
+    }
+    body {
+    font-size: 1.4em;
+}
+
+    .showcase_container{
+      height:100vh;
+      width:100%;
+      position:relative;
+    }
+    .showcase_product_image_container{
+      position:absolute;
+      top:0;
+      width:100%;
+      height:110vh;
+      left:0;
+
+    }
+
+    .showcase_product_image{
+      width:100%;
+      height:100%;
+    }
+    .showcase_background{
+        width:100%;
+        height:100%;
+        z-index:10;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+
+    .showcase_paper {
+      position:absolute;
+      width:50%;
+      z-index:2;
+      height:100%;
+    }
+
+
+    .paper_translate--left{
+      left:0;
+      top:0;
+      animation: translate_in_from_left 1s 1 ease-in;
+
+    }
+    .paper_translate--right{
+      right:0;
+      top:0;
+      animation: translate_in_from_right .5s 1 ease-in;
+    }
+
+    .paper_translate--left-backward{
+      left:-50% !important;
+      top:0;
+      transition: all .5s;
+    }
+
+    .paper_translate--right-backward{
+      right:-50% !important;
+      top:0%;
+      transition: all .5s;
+    }
+
+    .showcase_text_container{
+      width:100%;
+    }
+
+    .showcase_paper--right{
+      transform:rotateY(180deg);
+    }
+
+
+
+    .showcase_text{
+      text-align:center;
+      position:relative;
+      text-shadow: 0rem .5rem .5rem green;
+      font-family:"Teko";
+      color:#e6e6e6;
+      z-index:12;
+
+    }
+
+    .showcase_text--title{
+      font-size:7rem;
+      line-height:1;
+
+    }
+
+    .showcase_text--slogan{
+      font-size:6rem;
+    }
+
+    .showcase_text--products{
+      font-size:3rem;
+      color:orange;
+      width:50%;
+      margin:5% auto;
+      font-family:"Montserrat";
+    }
+
+    .showcase_title--bold{
+      font-weight:bold;
+      font-size:7rem;
+      text-transform:uppercase;
+    }
+
+    .mobile_only{
+      visibility:hidden;
+      opacity:0;
+    }
+
+    .margin-top-small{
+      margin-top:5%;
+    }
+
+    .margin-top-medium{
+      margin-top:10%;
+    }
+
+    .showcase_arrow_image{
+      width:50%;
+      margin: 0 25%;
+    }
+
+    .arrow_row{
+      position:relative;
+      z-index:14;
+    }
+
+
+    @keyframes translate_in_from_left {
+
+      0%{
+        left:-50%;
+      }
+      50%{
+        left:-50%;
+      }
+      100%{
+        left:0;
+      }
+
+    }
+
+    @keyframes translate_in_from_right {
+
+      0%{
+        right:-50%;
+      }
+      100%{
+        right:0;
+      }
+
+    }
+
+    @keyframes translate_in_from_left-backward {
+
+      0%{
+        left:0%;
+      }
+      50%{
+        left:0%;
+      }
+      100%{
+        left:-50%;
+      }
+
+    }
+
+    @keyframes translate_in_from_right-backward {
+
+      0%{
+        right:0%;
+      }
+      100%{
+        right:-50%;
+      }
+
+    }
+
+
+@media screen and (max-width:844px){
+
+      .desktop_only{
+        opacity:0;
+        visibility:hidden;
+      }
+      .showcase_text--title{
+        font-size:4rem;
+        text-align: left;
+        line-height:1;
+        padding-top:5%;
+      }
+      .showcase_text{
+        text-shadow: 0rem .3rem 1px green;
+
+        padding-left:5%;
+      }
+
+      .showcase_text--slogan{
+        font-size:3rem;
+        text-align: left;
+        padding-top:5%;
+      }
+      .slogan_text--bold{
+        font-size:10rem;
+      }
+
+
+      .showcase_text--products{
+        font-size:3rem;
+        color:orange;
+        width:100%;
+        margin-top:10%;
+        text-align: left;
+        font-family:"Montserrat";
+      }
+      .mobile_only{
+        opacity:1;
+        visibility:visible;
+      }
+      .arrow_row{
+        margin-top:15%;
+      }
+      .showcase_arrow_image{
+        width:100%;
+
+      }
+
+
+
+}

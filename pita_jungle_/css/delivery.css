@@ -1,0 +1,24 @@
+.delivery_title{
+  font-size:3rem;
+  font-family:"Teko";
+}
+.delivery_subtitle{
+  color:red;
+  font-family: cursive;
+}
+.paragraph_delivery{
+  color:grey;
+  font-size:1.5rem;
+  width:60%;
+  font-family:"Roboto";
+}
+.delivery_section{
+  margin-top:5%;
+  position: relative;
+}
+.delivery_row{
+  padding:2.5%;
+  position:absolute;
+  top:0%;
+  width:50%;
+}

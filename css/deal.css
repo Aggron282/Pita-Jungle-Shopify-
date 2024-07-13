@@ -1,0 +1,56 @@
+.deal_underline{
+  width:30%;
+  top:5%;
+  left:5%;
+  position: absolute;
+}
+.deal_title{
+  font-size: 100px;
+  position:absolute;
+  font-family: "Teko";
+  top:15%;
+  left:6%;
+}
+.deal_div{
+  margin-left: 6%;
+  margin-top: 20%;
+}
+.deal_images{
+  width:30%;
+  top:5%;
+  right:5%;
+  position: absolute;
+}
+.deal_detail{
+  font-family: "Teko";
+  font-size: 70px;
+  width:60%;
+  color:#1A9168;
+  margin-top: 5%;
+}
+
+
+@media screen and (max-width:680px){
+  .deal_underline{
+    left:5%;
+    top:5%;
+  }
+  .deal_title{
+    top:8%;
+    font-size:50px;
+
+  }
+
+  .deal_images{
+    top:25%;
+  }
+
+  .deal_div{
+    margin-top:40%;
+  }
+
+  .deal_detail{
+    font-size: 30px;
+    width:80%;
+  }
+}

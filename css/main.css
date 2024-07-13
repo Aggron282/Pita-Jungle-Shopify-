@@ -1,0 +1,70 @@
+.main_site_container {
+  width:100%;
+  margin-top:10%;
+  position: relative;
+}
+.main_site_background{
+  position: absolute;
+  top:10%;
+  left:0%;
+  width:100%;
+}
+.main_site_button{
+  width:25%;
+  margin-left:37.5%;
+  top:0%;
+  position: absolute;
+}
+.main_site_button:hover{
+  filter:invert(100);
+  color:black;
+}
+
+.store_locator{
+  margin-top: 30%;
+  width:100%
+}
+.store_title{
+  font-size: 30px;
+  font-family: "Teko";
+  text-align: center;
+
+}
+.store_details{
+  font-size: 25px;
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+.store_locator_button{
+  width:50%;
+  background:black;
+  color:white;
+  margin-left: 25%;
+  border-radius: 30px;
+  height:40px;
+  margin-top: 2.5%;
+
+}
+
+
+@media screen and (max-width:680px){
+.main_site_container{
+  margin-top:35%;
+}
+.main_site_button{
+  width:40%;
+  position:relative;
+  bottom:50px;
+  margin-left:30%;
+}
+.main_site_background{
+  width:100%;
+  height:100px
+}
+
+.store_locator{
+  margin-top:5%;
+}
+
+}
